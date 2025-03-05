@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding-bottom: 60px;
+}
+
+header {
+    background: #c3abff;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.profile img {
+    width: 100%; 
+    max-height: 500px; 
+    object-fit: cover; 
+    display: block;
+    margin: 20px auto;
+}
+
+.profile p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.social-media table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.social-media td {
+    padding: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+}
+
+footer {
+    background: #c3abff;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
